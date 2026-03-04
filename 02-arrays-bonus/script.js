@@ -53,9 +53,10 @@ let isFabioPresent2 = false;
 for (let i = 0; i < teachers.length; i++) {
   if (teachers[i] === 'Fabio') {
     isFabioPresent2 = true
-    break;
   }
 }
+console.log(isFabioPresent2);
+
 
 
 
@@ -63,3 +64,5 @@ for (let i = 0; i < teachers.length; i++) {
 // 5. Unisci tutti gli insegnanti nell'array teachers in una stringa  separata da virgole e salvala nella variabile teachersString
 const teachersString = teachers.join(' ');
 console.log(teachersString);
+
+
