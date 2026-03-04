@@ -58,6 +58,9 @@ const lewisIndex = teachers.indexOf('Lewis');
 
 const isTeachersEmpty = teachers.length;
 
+const isTeachersEmpty2 = teachers.length == 0;
+console.log(isTeachersEmpty2);
+
 let response;
 
 if (isTeachersEmpty === 0) {

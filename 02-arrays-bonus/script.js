@@ -36,10 +36,10 @@ console.log(longNames);
 // 3. Rimuovi 'Ed' dall'array teachers
 
 for (let i = 0; i < teachers.length; i++) {
-  if (teachers[i] === 'Ed'){
+  if (teachers[i] === 'Ed') {
     teachers.splice(i, 1)
   }
-} 
+}
 
 console.log(teachers);
 
@@ -47,6 +47,16 @@ console.log(teachers);
 // e salva il risultato nella variabile isFabioPresent
 const isFabioPresent = teachers.includes('Fabio');
 console.log(isFabioPresent);
+
+let isFabioPresent2 = false;
+
+for (let i = 0; i < teachers.length; i++) {
+  if (teachers[i] === 'Fabio') {
+    isFabioPresent2 = true
+    break;
+  }
+}
+
 
 
 
