@@ -67,7 +67,7 @@ if (isTeachersEmpty === 0) {
 };
 
 const results = `
-${'teachers array contains'} ${isTeachersEmpty} ${'elements'}
+teachers array contains ${isTeachersEmpty} elements
 ${response}
 `;
 
