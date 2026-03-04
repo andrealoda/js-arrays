@@ -10,8 +10,14 @@ const teachers = [
 
 // 1. Inverti l'ordine degli insegnanti nell'array teachers
 // e salva il risultato nella variabile reversedTeachers
-// const reversedTeachers = teachers.reverse();
-// console.log(teachers);
+console.log(teachers);
+const reversedTeachers = teachers.reverse();
+console.log(reversedTeachers);
+
+// per invertire l'ordine degli insegnanti direttamente in una variabile, senza invertirlo nella variabile originale
+
+const reversedTeachersAlternative = teachers.toReversed();
+console.log(reversedTeachersAlternative);
 
 
 // 2. Crea un nuovo array chiamato 'longNames' che contenga solo gli insegnanti
@@ -28,6 +34,8 @@ console.log(longNames);
 
 
 // 3. Rimuovi 'Ed' dall'array teachers
+
+
 
 // 4. Verifica se 'Fabio' è presente nell'array teachers
 // e salva il risultato nella variabile isFabioPresent
