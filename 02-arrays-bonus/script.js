@@ -65,5 +65,11 @@ console.log(isFabioPresent2);
 const teachersString = teachers.join(', ');
 console.log(teachersString);
 
+let teachersString2 = teachers[0]
 
+for (let i = 1; i < teachers.length; i++) {
+  teachersString2 +=  ', ' + teachers[i]
+}
+
+console.log(teachersString2);
 
