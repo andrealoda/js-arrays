@@ -54,10 +54,19 @@ console.log(isFabioPresent);
 
 let isFabioPresent2 = false;
 
+// for (let i = 0; i < teachers.length; i++) {
+//   if (teachers[i] === 'Fabio') {
+//     isFabioPresent2 = true
+//   }
+// }
+
+
 for (let i = 0; i < teachers.length; i++) {
-  if (teachers[i] === 'Fabio') {
-    isFabioPresent2 = true
+  const thisTeacher = teachers[i];
+  if (thisTeacher === 'Fabio') {
+    isFabioPresent2 = true;
   }
+  
 }
 console.log(isFabioPresent2);
 
